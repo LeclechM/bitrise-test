@@ -63,7 +63,7 @@
     "@angular/compiler": "^13.0.0",
     "@angular/compiler-cli": "^13.0.0",
     "@angular/language-service": "^13.0.0",
-    "@ionic/angular-toolkit": "^2.1.2",
+    "@ionic/angular-toolkit": "^5.0.3",
     "@ionic/lab": "^2.0.19",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "2.0.8",
@@ -95,7 +95,9 @@
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-webview": {
+        "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
+      },
       "cordova-plugin-statusbar": {},
       "cordova-plugin-ionic-keyboard": {}
     }
